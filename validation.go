@@ -18,7 +18,7 @@ func ValidatePhone(phone string) bool {
 	return true
 }
 
-func ValidUrl(url string) bool {
+func ValidateUrl(url string) bool {
 	if !URL_FORMAT.MatchString(url) {
 		return false
 	}
