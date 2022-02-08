@@ -6,7 +6,7 @@ import (
 
 func ValidateEmail(email string) bool {
 
-	if !config.EMAIL.MatchString(email) {
+	if !config.EMAIL_FORMAT.MatchString(email) {
 		return false
 	}
 
